@@ -3,8 +3,8 @@
 string a = "15";
 
 // associa a saída como zero caso der erro
-int.TryParse(a, out int x);
-Console.WriteLine(x);
+int.TryParse(a, out int u);
+Console.WriteLine(u);
 // int inteiro = 89;
 // string s = inteiro.ToString();
 // decimal t = 8.98M;
