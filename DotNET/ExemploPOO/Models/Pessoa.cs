@@ -10,6 +10,13 @@ namespace ExemploPOO.Models
         public string Nome { get; set; }
         public int Idade { get; set; }
 
+        public Pessoa(){
+            
+        }
+        public Pessoa(String nome)
+        {
+            Nome = nome;
+        }
         public string Email { get; set; }
 
         public virtual void Apresentar(){
